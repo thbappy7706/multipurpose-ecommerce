@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "type": "stdio",
+            "command": "wsl.exe",
+            "args": [
+                "/usr/local/php84/bin/php",
+                "/home/tanvir/multipurpose-ecom/artisan",
+                "boost:mcp"
+            ]
+        }
+    }
+}
